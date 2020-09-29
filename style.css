@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-search {
+    background-color:#fafafa;
+    padding: 4px;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+}
+
+.buttons{
+    margin-top: 0px;
+    margin-right: 50px;
+}
+
+.header-placeholder {
+ max-width: 200px;
+ height: 100%;
+ padding: 15px 0;
+} 
+
+.container{
+    width: 975px;
+    margin: auto;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+
+.placeholder-left {
+    float:left;
+}
+
+.placeholder-right {
+    float:right;
+}
+
+.placeholder-center {
+    margin: 0 auto;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.acide{
+    float: right;
+    margin-top: 25px;
+    margin-right: -170px;
+    max-width: 320px;
+}
+
+.my-account{
+    height: 60px;
+    width: 300px;
+}
+
+.profile-icon{
+float: left;
+}
+
+.username{
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.recomendations-1{
+    margin-top: 15px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.recomendations{
+    float: left;
+}
+
+.see-more{
+    float: right;
+}
+
+.follow-them{
+    height: 50px;
+    width: 320px;
+}
+
+.people{
+    float: left;
+    padding: auto;
+    text-decoration: none;
+}
+
+.follow{
+    border: none;
+    background: none;
+    float: right;
+    margin: 10px 0;
+}
+
+.info-inline {
+    float: left;
+    padding-right: 10px;
+    margin-right: 10px;
+    
+}
+
+.info-list{
+    margin-left: 18px;
+}
+
+.instagram2020{
+    margin-top: 20px;
+    float: left;
+}
+
+.stories-block{
+    width: 700px; /*607*/
+    height: 100px;
+    margin: 25px 10px 0 185px;
+    background-color: white;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+}
+
+.stories{
+    float: left;
+    padding-right: 10px;
+    padding-top: 5px;
+    width: 75px;
+}
+
+
+.stories-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.publication{
+    max-width: 551px;
+    height: 950px;
+    margin: 100px 20px 0 240px; /*margin-top: 25px*/
+    background-color: white;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+}
+
+.publication-avatar{
+    float: left;
+    margin: 5px 5px;
+}
+
+.dots{
+    float: right;
+    margin: 10px 10px;
+}
+
+
+
+
+
+
+
