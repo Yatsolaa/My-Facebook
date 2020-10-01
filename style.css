@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 .header-search {
     background-color:#fafafa;
@@ -8,16 +9,16 @@
     border: 1px solid #e4e4e4;
     border-radius: 3px;
 }
-
+/*
 .buttons{
     margin-top: 0px;
     margin-right: 50px;
 }
-
+*/
 .header-placeholder {
  max-width: 200px;
  height: 100%;
- padding: 15px 0;
+ padding: 15px 0 0 0;
 } 
 
 .container{
@@ -34,7 +35,7 @@
     border-bottom: 1px solid #e4e4e4;
 }
 
-body{
+.body{
     background-color: #fafafa;
 }
 
@@ -52,7 +53,7 @@ body{
 }
 
 .icon{
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .acide{
@@ -63,12 +64,13 @@ body{
 }
 
 .my-account{
+    margin-top: 12px;
     height: 60px;
     width: 300px;
 }
 
 .profile-icon{
-float: left;
+    float: left;
 }
 
 .username{
@@ -126,9 +128,10 @@ float: left;
 }
 
 .stories-block{
-    width: 700px; /*607*/
+    float: left;
+    width: 607px; 
     height: 100px;
-    margin: 25px 10px 0 185px;
+    margin: 10px 10px 0 185px;
     background-color: white;
     border: 1px solid #e4e4e4;
     border-radius: 3px;
@@ -136,8 +139,7 @@ float: left;
 
 .stories{
     float: left;
-    padding-right: 10px;
-    padding-top: 5px;
+    padding: 5px 10px;
     width: 75px;
 }
 
@@ -149,9 +151,10 @@ float: left;
 }
 
 .publication{
-    max-width: 551px;
-    height: 950px;
-    margin: 100px 20px 0 240px; /*margin-top: 25px*/
+    float: left;
+    width: 607px;
+    height: 877px;
+    margin: 25px 10px 0 185px; /*margin-top: 25px*/
     background-color: white;
     border: 1px solid #e4e4e4;
     border-radius: 3px;
@@ -162,10 +165,96 @@ float: left;
     margin: 5px 5px;
 }
 
+.profile-name{
+    text-decoration: none;
+    margin-top: auto;
+    padding-top: 6px;
+    margin-left: 5px;
+    max-width: 200px;
+}
+
+.location{
+    float: left;
+}
+
 .dots{
     float: right;
-    margin: 10px 10px;
+    margin: 15px 20px 20px 15px;
+} 
+
+.left-buttons{
+    float: left;
+    border: none;
 }
+
+.right-button{
+    float: right;
+    border: none;
+}
+
+.button{
+    border: none;
+    padding: 8px;
+    background-color: white;
+}
+
+.all-buttons{
+    width: 607px;
+    height: 44px;
+}
+
+.likes{
+    float: left;
+    padding-left: 8px;
+    padding-right: 5px;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+.comment{
+    float: left;
+    margin-left: 8px ;
+}
+
+.tolikeacomment{
+    float: right;
+    margin: 0 8px;
+}
+
+.comment-block{
+    width: 607px;
+    height: 18px;
+    margin: 5px 0;
+}
+
+.time{
+    height: 20px;
+    margin: 8px;
+}
+
+.add-a-comment{
+    margin-top: 8px;
+    padding: 0 16px;
+    width: 575px;
+    height: 56px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.input-comment{
+    border: none;
+    padding: 18px 0;
+}
+
+.publish-a-comment{
+    padding: 18px 0;
+    float: right;
+    border: none;
+    background-color: white;
+}
+
+
 
 
 
