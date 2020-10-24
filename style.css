@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 main{
@@ -74,12 +76,6 @@ main{
 }
 
 .acide{
-   /*
-    margin-right: -170px;
-    
-    height: 100%;
-    margin-bottom: 100%;
-    */
     margin-top: 25px;
     max-width: 320px;
     order: 2;
@@ -113,10 +109,16 @@ main{
 
 .recomendations{
     font-family: Arial, Helvetica, sans-serif;
-    
+    font-size: 14px;
+    color: #8e8e8e;
+    font-weight: bolder;
 }    
 
-
+.see-more{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #262626;
+}
 
 
 .follow-them{
@@ -142,9 +144,16 @@ main{
 }
 
 .follow{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0096F6;
     border: none;
     background: none;
     margin: 10px 0;
+}
+
+.profile-icon{
+    padding-right: 10px;
 }
 
 .info-inline {
@@ -158,6 +167,7 @@ main{
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-left: 18px;
+    color: #c7c7c7;
 }
 
 
@@ -183,12 +193,18 @@ main{
 }
 
 .stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px 10px;
     width: 75px;
 }
 
 
 .stories-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #262626;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -307,11 +323,51 @@ main{
 }
 
 .publish-a-comment{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0096F6;
+    font-size: 14px;
     margin: 18px 0;
     border: none;
     background-color: white;
 }
 
+.profile-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #262626;
+    font-weight: 500;
+}
+
+.my-username{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #262626;
+    font-weight: 500;
+}
+
+.surname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.follow-by{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.footer-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #c7c7c7;
+}
+
+.time-ago{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #8e8e8e;
+}
 
 
 
